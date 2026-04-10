@@ -5,22 +5,17 @@ body {
   color: #333;
 }
 
-/* HEADER */
 header {
   background: #e5e5e5;
   border-bottom: 3px solid #444;
-  padding: 10px 30px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.logo-small {
-  height: 42px;
-}
-
 nav a {
-  margin-left: 40px;
+  margin: 0 20px;
   text-decoration: none;
   color: #2f5fd0;
   font-size: 22px;
@@ -31,51 +26,41 @@ nav a:hover {
   text-decoration: underline;
 }
 
-/* MAIN CONTAINER */
+.logo-small {
+  height: 40px;
+}
+
 .container {
   max-width: 900px;
-  margin: 80px auto;
+  margin: 60px auto;
   text-align: center;
-  padding: 0 20px;
 }
 
-/* LOGO */
 .logo-main {
-  max-width: 420px;
-  margin-bottom: 40px;
+  max-width: 400px;
+  margin-bottom: 30px;
 }
 
-/* TEXT */
-p {
-  font-size: 18px;
-  line-height: 1.7;
-}
-
-/* CARDS */
 .card {
   background: #cfcfcf;
   border-radius: 30px;
-  padding: 35px;
-  margin-top: 40px;
+  padding: 30px;
+  margin-top: 30px;
   text-align: left;
 }
 
-/* TITLES */
 .project-title {
   color: #2f5fd0;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: bold;
-  margin-bottom: 15px;
 }
 
-/* BUTTONS */
 .button {
   display: inline-block;
-  padding: 12px 20px;
+  padding: 12px 18px;
   border-radius: 8px;
   text-decoration: none;
   font-weight: bold;
-  margin-top: 15px;
 }
 
 .button-green {
@@ -83,24 +68,14 @@ p {
   color: #000;
 }
 
-.button-green:hover {
-  background: #7cb342;
-}
-
 .button-blue {
   color: #2f5fd0;
 }
 
-.button-blue:hover {
-  text-decoration: underline;
-}
-
-/* FOOTER */
 .footer {
   text-align: center;
-  margin-top: 60px;
-  padding: 25px;
+  margin-top: 50px;
+  padding: 20px;
   font-size: 14px;
   color: #2f5fd0;
-  border-top: 2px solid #444;
 }
