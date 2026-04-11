@@ -5,7 +5,7 @@ html, body {
 
 body {
   font-family: Arial, sans-serif;
-  background: #d3d3d3;
+  background: #f7f7f9; /* Stripe-style off white */
   color: #333;
 
   display: flex;
@@ -14,8 +14,8 @@ body {
 
 /* HEADER */
 header {
-  background: #e5e5e5;
-  border-bottom: 3px solid #444;
+  background: #d3d3d3; /* moved grey to header */
+  border-bottom: 2px solid #a1a1aa; /* softer, modern border */
 }
 
 .header-inner {
@@ -55,7 +55,7 @@ header {
   text-decoration: underline;
 }
 
-/* MAIN CONTENT WRAPPER (NEW) */
+/* MAIN CONTENT WRAPPER */
 .main-content {
   flex: 1;
 }
@@ -82,11 +82,14 @@ p {
 
 /* CARDS */
 .card {
-  background: #cfcfcf;
+  background: #e4e4e7; /* slightly darker than background */
   border-radius: 30px;
   padding: 35px;
   margin-top: 40px;
   text-align: left;
+
+  /* subtle modern polish */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
 /* TITLES */
@@ -124,11 +127,11 @@ p {
   text-decoration: underline;
 }
 
-/* FOOTER (UPDATED) */
+/* FOOTER */
 .footer {
   text-align: center;
-  padding: 12px 20px; /* consistent height */
+  padding: 12px 20px;
   font-size: 14px;
   color: #2f5fd0;
-  border-top: 2px solid #444;
+  border-top: 2px solid #a1a1aa; /* match header tone */
 }
