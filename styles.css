@@ -22,6 +22,10 @@ header {
   align-items: center;
 }
 
+.logo-small {
+  height: 65px;
+}
+
 nav {
   display: flex;
   justify-content: center; /* centers nav items */
