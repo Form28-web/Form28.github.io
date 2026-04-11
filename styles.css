@@ -16,30 +16,42 @@ body {
 header {
   background: #e5e5e5;
   border-bottom: 3px solid #444;
-  padding: 10px 30px;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  align-items: center;
+}
+
+.header-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+  padding: 15px 20px;
+}
+
+/* LOGO (left aligned) */
+.logo-wrapper {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .logo-small {
-  height: 65px;
+  height: 40px;
 }
 
-nav {
+/* NAV (perfectly centered) */
+.nav-center {
   display: flex;
-  justify-content: center; /* centers nav items */
-  gap: 40px;
+  justify-content: center;
+  gap: 50px;
 }
 
-nav a {
+.nav-center a {
   text-decoration: none;
   color: #2f5fd0;
   font-size: 22px;
   font-weight: bold;
 }
 
-nav a:hover {
+.nav-center a:hover {
   text-decoration: underline;
 }
 
