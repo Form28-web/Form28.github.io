@@ -17,17 +17,18 @@ header {
   background: #e5e5e5;
   border-bottom: 3px solid #444;
   padding: 10px 30px;
-  display: flex;
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
-  justify-content: space-between;
 }
 
-.logo-small {
-  height: 50px;
+nav {
+  display: flex;
+  justify-content: center; /* centers nav items */
+  gap: 40px;
 }
 
 nav a {
-  margin-left: 40px;
   text-decoration: none;
   color: #2f5fd0;
   font-size: 22px;
