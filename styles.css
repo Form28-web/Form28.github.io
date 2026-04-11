@@ -16,7 +16,7 @@ header {
 }
 
 .logo-small {
-  height: 42px;
+  height: 60px;
 }
 
 nav a {
@@ -41,7 +41,7 @@ nav a:hover {
 
 /* LOGO */
 .logo-main {
-  max-width: 420px;
+  max-width: 500px;
   margin-bottom: 40px;
 }
 
