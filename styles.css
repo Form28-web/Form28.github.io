@@ -135,3 +135,10 @@ p {
   color: #2f5fd0;
   border-top: 2px solid #a1a1aa; /* match header tone */
 }
+
+.tagline {
+  font-size: 22px;
+  line-height: 1.6;
+  max-width: 750px;
+  margin: 10px auto 0 auto;
+}
